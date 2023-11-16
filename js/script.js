@@ -1,15 +1,8 @@
-function changeImage(product) {
-    var mainImage = product.querySelector('.main-image');
-    var hoverImage = product.querySelector('.hover-image');
-
-    mainImage.style.display = 'none';
-    hoverImage.style.display = 'block';
+function closeAlert() {
+    document.getElementById("myAlert").style.display = "none";
 }
 
-function restoreImage(product) {
-    var mainImage = product.querySelector('.main-image');
-    var hoverImage = product.querySelector('.hover-image');
-
-    mainImage.style.display = 'block';
-    hoverImage.style.display = 'none';
-}
+// Mostrar la alerta después de 3 segundos (puedes ajustar este valor)
+setTimeout(function() {
+    document.getElementById("myAlert").style.display = "block";
+}, 3);
