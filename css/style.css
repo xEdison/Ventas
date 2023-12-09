@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.alert {
+    background-color: rgb(61, 150, 205);
+    color: rgb(238, 219, 46);
+    height: 50px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye uniformemente los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    height: 281px;
+}
+
+.logo img {
+    height: 250px;
+    margin-right: 20px;
+    /* Agrega un margen derecho a la imagen */
+}
+
+.logo button {
+    font-size: 50px;
+    margin-left: 20px;
+    /* Agrega un margen izquierdo a los botones */
+    margin-right: 90px;
+    /* Agrega un margen derecho a los botones */
+}
+
+.botones-horizontales {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.botones-horizontales button {
+    padding: 29px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botones-horizontales button:hover {
+    background-color: #bedcf0;
+}
+
+.car {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: -25px;
+    text-align: center;
+    width: 300px;
+    float: right;
+}
+
+.material-symbols-outlined {
+    height: 29px;
+    width: 29px;
+    background-color: #fff;
+    border: none;
+}
+
+.close {
+    color: white;
+    font-size: 20px;
+    margin: 0px -1100px -38px 1114px;
+    font-size: 32px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    color: #ffffff;
+    font-size: 7px;
+    background-color: rgb(14, 91, 139);
+}
+
+.sales {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 19px;
+    width: 291px;
+    align-items: baseline;
+}
+
+.product {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 310px;
+    flex-direction: column;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product h2 {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.product p {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    height: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product-description {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+    /* Puedes ajustar el color según tu diseño */
+}
+
+.add-cart {
+    display: flex;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+}
